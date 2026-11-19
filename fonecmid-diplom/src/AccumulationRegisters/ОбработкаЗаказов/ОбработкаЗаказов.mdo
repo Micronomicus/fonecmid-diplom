@@ -68,6 +68,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="a6fd25ab-9179-440e-a899-c13a9c1ffe1c">
+    <name>ВКМ_СуммаПоРаботамСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ сумма по работам специалиста</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <dimensions uuid="b6a5bbfc-8d36-4406-9b12-1f435bc8f97f">
     <name>Контрагент</name>
     <synonym>

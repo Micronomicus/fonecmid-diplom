@@ -202,9 +202,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -410,4 +408,20 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="2962d019-27b7-44fd-8859-542fbf43a644">
+    <name>ВКМ_Акт_ПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ акт ПФ</value>
+    </synonym>
+  </templates>
+  <commands uuid="81a0bb30-2080-430c-9e8b-8effda18b956">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
